@@ -1,0 +1,27 @@
+header {
+  .navbar {
+    .container {
+      .navbar-brand {
+        color: rgb(71, 73, 85);
+      }
+      .navbar-toggler {
+      }
+      .navbar-collapse {
+        .navbar-nav {
+          .nav-item {
+            .nav-link {
+              color: rgb(71, 73, 85);
+              border-radius: 18px;
+              padding: 8px 16px;
+             
+            }
+            .active{
+                background-color: rgb(127, 68, 255) !important;
+                color: #fff;
+              }
+          }
+        }
+      }
+    }
+  }
+}
