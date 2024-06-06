@@ -1,5 +1,5 @@
 .login-page {
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(
       217deg,
       rgba(255, 0, 0, 0.8),
@@ -12,4 +12,92 @@
     //   color: #fff;
     padding: 20px;
   }
+  .login-form {
+    margin-bottom: 100px;
+    background-color: rgb(88, 88, 224);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    border: 1px solid rgb(32, 34, 60);
+    align-items: center;
+    justify-content: center;
+  }
+  .login-header{
+    text-align: center;
+    color: rgb(98, 211, 162);
+    margin-bottom: 20px;
+  }
+  .form-control{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-color: transparent;
+    &::placeholder{
+      color: #fff;
+      opacity: 0.5;
+    }
+  }
+  .divider-nospace{
+    border-top: 1px solid #fff;
+  }
+  .password-field{
+    position: relative;
+  }
+  .password-toggle{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .checkbox-text{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .checkbox-text input[type="checkbox"]:checked{
+    border-color: #fff;
+    background-color: rgb(233, 66, 178);
+  }
+  .form-check-input{
+    margin-right: 5px;
+  }
+  .register-link{
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+      color: black;
+    }
+  }
+  .access-right{
+    margin-top: 20px;
+    width: 200px;
+    color: #fff;
+    border: 1px solid rgb(248, 248, 248);
+    &:focus{
+      border: 1px solid rgb(243, 243, 243);
+    }
+  }
+  option {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+}
+.login-button{
+  background: linear-gradient(to right, rgb(147, 170, 13), rgb(118, 190, 1));
+  color: #fff;
+  border-radius: 30px;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 20px;
+  border:none
+}
+.divider{
+  height: 1px;
+  background-color: #f9f9f9;
+  margin: 20px;
+}
 }
