@@ -26,12 +26,12 @@ import { RegisterComponent } from './pages/register/register.component';
   providers: [],
   bootstrap: [
     // HomeComponent,
-    // ProductDetailComponent,
+    ProductDetailComponent,
     // OrderComponent,
     // ProductListComponent,
     // OrderConfirmComponent,
     // LoginComponent,
-    RegisterComponent
+    // RegisterComponent
 
   ],
 })
