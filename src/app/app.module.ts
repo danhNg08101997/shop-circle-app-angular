@@ -8,6 +8,7 @@ import { ProductDetailComponent } from './pages/product-detail/product-detail.co
 import { ProductListComponent } from './pages/product-list/product-list.component';
 import { OrderConfirmComponent } from './pages/order-confirm/order-confirm.component';
 import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { LoginComponent } from './pages/login/login.component';
     ProductListComponent,
     OrderConfirmComponent,
     LoginComponent,
+    RegisterComponent,
   ],
   imports: [BrowserModule],
   providers: [],
@@ -28,7 +30,8 @@ import { LoginComponent } from './pages/login/login.component';
     // OrderComponent,
     // ProductListComponent,
     // OrderConfirmComponent,
-    LoginComponent,
+    // LoginComponent,
+    RegisterComponent
 
   ],
 })
